@@ -261,8 +261,8 @@
       ]
     },
     "/Users/awbreyhughlett/repositories/evm-raffle/contracts/extensions/RafflePurchaseable.sol": {
-      "lastModificationDate": 1660339621370,
-      "contentHash": "df4adc540ca205fd23eb608a08447abb",
+      "lastModificationDate": 1660343567372,
+      "contentHash": "90d3c49fdb04aa4602a8cd0476ee20d0",
       "sourceName": "contracts/extensions/RafflePurchaseable.sol",
       "solcConfig": {
         "version": "0.8.16",

@@ -12,7 +12,7 @@ abstract contract RafflePurchaseable {
     uint256 public price;
 
     function _purchase(uint256 quantity_) internal virtual {
-        require(msg.value == quantity_ * price);
+        require(msg.value == quantity_ * price, "amount sent must match quantity times price");
         balance += msg.value;
     }
 
