@@ -7,12 +7,12 @@ import "../extensions/RafflePurchaseable.sol";
 import "../extensions/RaffleRandomPick.sol";
 
 /** 
- * @title VRFRaffle
+ * @title SimpleRandomRaffle
  * @dev Provides a complete raffle system where entries are purchased at the entry
- *      price, the winner is selected using VRF, and the balance of all entries
+ *      price, the winner is selected using a timestamp, and the balance of all entries
  *      is sent to the winner.
  */
-contract VRFRaffle is Ownable, Raffle, RafflePurchaseable, RaffleRandomPick {
+contract SimpleRandomRaffle is Ownable, Raffle, RafflePurchaseable, RaffleRandomPick {
 
     constructor(
         uint256 entryCost_

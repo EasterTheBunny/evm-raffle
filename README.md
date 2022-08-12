@@ -38,3 +38,4 @@ composable contracts.
 - SimpleRaffle: external winner selection
 - VRFRaffle: externally triggered random winner selection
 - ERC721Raffle: zero purchase price with ERC721 prize to the selected winner
+- SimpleRandomRaffle: externally triggered random winner
