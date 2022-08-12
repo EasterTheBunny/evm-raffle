@@ -44,9 +44,7 @@ abstract contract RaffleVRFRandomPick is Raffle, VRFConsumerBaseV2 {
     ) internal override {
         randomWords = randomWords_;
 
-        // TODO: pick random idx using random words
-        
-        uint256 idx;
+        uint256 idx = randomWords[0]%this.entryCount();
 
         _resolveRandomPick(idx);
     }
